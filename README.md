@@ -1,7 +1,7 @@
 # MedTurbo: A Benchmark for Targeted Generative Attacks on Medical Image Classification
 
 <p align="center">
-  <img src="assets/examples_gallery.png" width="100%" alt="MedTurbo qualitative examples across three modalities and four methods">
+  <img src="assets/qualitative_comparison.png" width="100%" alt="MedTurbo qualitative examples across three modalities and four methods">
 </p>
 
 <p align="center">
