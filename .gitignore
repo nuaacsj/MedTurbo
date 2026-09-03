@@ -1,0 +1,29 @@
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.py
+
+# Python bytecode / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+.venv/
+env/
+venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs / large artifacts (adjust as needed once training code is released)
+*.log
+*.db
+checkpoints/
+results/
+logs/
