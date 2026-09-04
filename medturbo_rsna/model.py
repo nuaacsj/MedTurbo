@@ -1,16 +1,5 @@
 """
 med_turbo_rsna.py  ——  MedTurbo RSNA 肺炎模型
-
-核心改动（v2）：
-  - 删除不稳定的 added_cond_kwargs text_embeds/time_ids 注入方式
-  - 使用 SpatialMaskAdapter：mask → resize 到 latent 尺寸 → [B,4,h,w] delta
-  - z_noisy_cond = z_noisy + mask_delta
-  - SpatialMaskAdapter 最后一层 zero-init，初始不破坏 SD-Turbo latent
-  - 所有可训练参数：LoRA(UNet) + LoRA(VAE decoder) + SpatialMaskAdapter
-
-forward 接口（与 skin 分支对齐）：
-  forward(pixel_values, masks, prompt_embeds, timestep=None) → fake_raw [-1,1]
-  encode_text(prompts) → text embeddings
 """
 
 import os

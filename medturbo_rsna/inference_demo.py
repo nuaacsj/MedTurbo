@@ -1,5 +1,5 @@
 """
-inference_rsna.py —— MedTurbo RSNA 肺炎推理脚本（v3.1，delta composite）
+inference_rsna.py —— MedTurbo RSNA 肺炎推理脚本
 
 输出结构：
   output_dir/
